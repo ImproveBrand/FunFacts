@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".FunFactsActivity"
+    android:id="@+id/FunFacts"
+    android:gravity="center|top"
+    android:background="#ff51b46d">
+
+    <TextView
+        android:text="@string/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#80ffffff"
+        android:id="@+id/HelloText"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sentence"
+        android:id="@+id/FactText"
+        android:layout_marginTop="106dp"
+        android:gravity="center_vertical"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/HelloText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:id="@+id/FunButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:background="@android:drawable/btn_default" />
+
+</RelativeLayout>
