@@ -2152,7 +2152,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431904291288</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tercera Subida (cambio de pregunta)">
+      <created>1431904323488</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1431904323488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
